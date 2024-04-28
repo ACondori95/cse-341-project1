@@ -1,0 +1,14 @@
+// LOCALHOST
+### GET ALL
+http://localhost:3000/users
+
+### GET SINGLE
+http://localhost:3000/users/662c1349b2c7efa7a376f434
+
+
+// RENDER
+### GET ALL
+https://project01-0qe2.onrender.com/users
+
+### GET SINGLE
+https://project01-0qe2.onrender.com/users/662c1349b2c7efa7a376f434
