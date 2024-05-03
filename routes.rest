@@ -1,0 +1,39 @@
+// LOCALHOST
+### Get all users
+GET http://localhost:3000/users
+
+### Get contact by ID
+GET http://localhost:3000/users/662c1349b2c7efa7a376f434
+
+### Create user
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "username": "test1@test.com",
+  "name": "Hello1",
+  "ipaddress": "94.121.168.53"
+}
+
+### PUT contact
+PUT http://localhost:3000/users/66342925b11379df84bfb924 HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test123@example.com",
+  "username": "test1@test.com",
+  "name": "Hello1",
+  "ipaddress": "94.121.168.53"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/users/66342925b11379df84bfb924 HTTP/1.1
+
+
+// RENDER
+### GET ALL
+GET https://project01-0qe2.onrender.com/users
+
+### GET SINGLE
+GET https://project01-0qe2.onrender.com/users/662c1349b2c7efa7a376f434
